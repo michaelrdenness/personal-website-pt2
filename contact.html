@@ -1,0 +1,74 @@
+<!-- Sets the document type: -->
+<!DOCTYPE html>
+<!-- Sets the webpage language type: -->
+<html lang="en">
+    <!-- Formatting & Meta-Data: -->
+    <head>
+        <!-- Sets the charset & formats the webpage: -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The CSS file referenced below sets the webpage's stylization & element formatting: -->
+        <link rel="stylesheet" href="style.css">
+        <!-- The .js file referenced below applies js scripting to the webpage: -->
+        <script defer src="javascript.js"></script>
+        <!-- Sets a title for the browser tab/tag: -->
+        <title>Michael Denness (Web Developer)</title>
+    </head>
+    <!-- The "Contents" of the web page: -->
+    <body>
+        <!-- Sets a "header" (title) section for the webpage: -->
+        <header>
+            <!-- Establishes the "header" section as having links to external html (nav): -->
+            <nav>
+                <!-- Creates a "logo" element in the header, including my name: -->
+                <div id="logo">
+                    <h1>Michael Denness</h1>
+                </div>
+                <!-- Creates a "links" element in the header. Includes links to external html: -->
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a class="active" href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <!-- The "main" section of the webpage. The true "body" of the page you are viewing: -->
+        <main>
+            <!-- Creates a "contact" form. Available to be filled out with the following details: -->
+            <h1>Contact Me:</h1>
+            <form id="form">
+                <!-- Sets a section of the form to input the user's name: -->
+                <div>
+                    <label for="name">Name:</label><br />
+                    <input id="name" type="text" name="name"/>
+                </div>
+                <!-- Sets a section of the form to input the user's email: -->
+                <div>
+                    <label for="email">Email:</label><br />
+                    <input id="email" type="email" name="email"/>
+                </div>
+                <!-- Sets a section of the form to input a message from the user: -->
+                <div>
+                    <label for="message">Message:</label><br />
+                    <textarea id="message" name="message" rows="6" cols="50"></textarea>
+                </div>
+                <!-- Enables a "submit" button that records the user-input: -->
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </main>
+        <!-- Sets a "footer" (end) section for the webpage, includes links to various social media: -->
+        <footer>
+            <a href="https://facebook.com" target="_blank">
+                <img class="media-link" src="/Images/facebooklogo.png" alt="Facebook"/>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img class="media-link" src="/Images/twitterlogo.png" alt="Twitter"/>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img class="media-link" src="/Images/linkedinlogo.png" alt="Linkedin"/>
+            </a>
+        </footer>
+    </body>
+</html>
