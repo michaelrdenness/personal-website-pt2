@@ -1,0 +1,79 @@
+<!-- Sets the document type: -->
+<!DOCTYPE html>
+<!-- Sets the webpage language type: -->
+<html lang="en">
+    <!-- Formatting & Meta-Data: -->
+    <head>
+        <!-- Sets the charset & formats the webpage: -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The CSS file referenced below sets the webpage's stylization & element formatting: -->
+        <link rel="stylesheet" href="style.css">
+        <!-- The .js file referenced below applies js scripting to the webpage: -->
+        <script src="javascript.js"></script>
+        <!-- Sets a title for the browser tab/tag: -->
+        <title>Michael Denness (Web Developer)</title>
+    </head>
+    <!-- The "Contents" of the web page: -->
+    <body>
+        <!-- Sets a "header" (title) section for the webpage: -->
+        <header>
+            <!-- Establishes the "header" section as having links to external html (nav): -->
+            <nav>
+                <!-- Creates a "logo" element in the header, including my name: -->
+                <div id="logo">
+                    <h1>Michael Denness</h1>
+                </div>
+                <!-- Creates a "links" element in the header. Includes links to external html: -->
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a class="active" href="#">Portfolio</a>
+                </div>
+            </nav>
+        </header>
+        <!-- The "main" section of the webpage. The true "body" of the page you are viewing: -->
+        <main>
+            <!-- Creates a "project-header" element. Adds title text: -->
+            <h1 id="project-header">Things I have created:</h1>
+            <!-- Creates a "project-container" element: -->
+            <div id="project-container">
+                <!-- Places a new "project" class inside of the "project-container" element: -->
+                <section class="project">
+                    <!-- Titles of the various projects I have worked on: -->
+                    <h2>Animal Info Compendium</h2>
+                    <!-- Creates a new "project-content" class inside of the "project" class: -->
+                    <div class="project-content">
+                        <!-- Images/information regarding the various projects I have completed: -->
+                        <img class="portfolio-img" src="/Images/animal.png" alt="animal"/>
+                        <p>
+                            For this project, I created a basic web-page for zoo interns. The goal was to make it easier for new hires to become aquainted with the various animals.
+                        </p>
+                    </div>
+                </section>
+                <section class="project">
+                    <h2>The Picasso Painting</h2>
+                    <div class="project-content">
+                        <img class="portfolio-img" src="/Images/picasso.png" alt="picasso"/>
+                        <p>
+                            The goal of this project was to create an abstract piece of web art.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Sets a "footer" (end) section for the webpage, includes links to various social media: -->
+        <footer>
+            <a href="https://facebook.com" target="_blank">
+                <img class="media-link" src="/Images/facebooklogo.png" alt="Facebook"/>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img class="media-link" src="/Images/twitterlogo.png" alt="Twitter"/>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img class="media-link" src="/Images/linkedinlogo.png" alt="Linkedin"/>
+            </a>
+        </footer>
+    </body>
+</html>

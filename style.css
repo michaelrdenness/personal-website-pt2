@@ -1,0 +1,183 @@
+/* Sets the box-sizing format for the series of web-pages: */
+  * {
+    box-sizing: border-box;
+  }
+
+/* Sets the background-color, default font-size, & font-family for the series of web-pages: */
+  html {
+    background-color: rgb(24, 50, 68);
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+/* Formats the "body" for the series of web-pages: */
+  body {
+    background-color: #367c8e;
+    box-shadow: 0 0 12px -2px black;
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+/* Formats the "header" section for the series of web-pages: */
+  nav {
+    box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* Formats the "a" reference element: */
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+  }
+
+/* Sets the border-bottom of the "active" reference element: */  
+  .active {
+    border-bottom: 1px solid #c0c0c0;
+  }
+
+/* Formats the "main" section for the series of web-pages: */
+  main {
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+/* Formats & resizes all img's located in the "main" section of the series of web-pages: */
+  main > img {
+    height: 250px;
+    width: 200px;
+    float: right;
+    margin: 10px 0 10px 10px;
+  }
+
+/* Formats the "quote" class for "index.html": */
+  main .quote {
+    font-family: 'Satisfy', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-top: 9em;
+  }
+
+/* Formats the "footer" section for the series of web-pages: */
+  footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+  }
+
+/* Sets the margin of the "a" reference element located inside the "footer": */
+  footer a {
+    margin: 0 25px;
+  }
+
+/* Resizes all "images" belonging to the "media-link" class: */
+  footer .media-link {
+    height: 45px;
+  }
+
+/* Sets the font-weight, size & position for the "about-header" element: */
+  #about-header {
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+/* Formats the "about-section" class for "about.html": */
+  .about-section {
+    border-top: 1px solid #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 8em;
+  }
+
+/* Resizes all "images" belonging to the "about-section" class: */
+  .about-section img {
+    height: 125px;
+  }
+
+/* Sets the first image, in the series of "hobby" images, to the left of the accompanying text: */
+  .about-section:nth-of-type(n) > img {
+    float: left;
+    margin: 0px 24px 24px 24px;
+  }  
+  
+/* Sets the second image, in the series of "hobby" images, to the right of the accompanying text: */
+  .about-section:nth-of-type(2n) > img {
+    float: right;
+    margin: 0px 24px 24px 24px;
+  }
+
+/* Sets the third image, in the series of "hobby" images, to the left of the accompanying text: */
+  .about-section:nth-of-type(3n) > img {
+    float: left;
+    margin: 0 24px 24px 24px;
+  }
+
+/* Sets the font-weight, size & position for the "project-header" element: */
+  #project-header {
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+/* Formats the "project" class for "portfolio.html": */
+  .project {
+    width: calc(100% - 6em);
+    background: #d7e1f0;
+    color: #000000;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+  }
+
+/* Formats text tagged "h2" under the "project" class: */
+  .project h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    border-bottom: 2px solid #ccc;
+  }
+
+/* Formats the "project-content" class for "portfolio.html": */
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Resizes all "images" belonging to the "project-content" class: */
+  .project-content img {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }

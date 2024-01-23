@@ -1,0 +1,80 @@
+<!-- Sets the document type: -->
+<!DOCTYPE html>
+<!-- Sets the webpage language type: -->
+<html lang="en">
+    <!-- Formatting & Meta-Data: -->
+    <head>
+        <!-- Sets the charset & formats the webpage: -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The CSS file referenced below sets the webpage's stylization & element formatting: -->
+        <link rel="stylesheet" href="style.css">
+        <!-- The .js file referenced below applies js scripting to the webpage: -->
+        <script src="javascript.js"></script>
+        <!-- Sets a title for the browser tab/tag: -->
+        <title>Michael Denness (Web Developer)</title>
+    </head>
+    <!-- The "Contents" of the web page: -->
+    <body>
+        <!-- Sets a "header" (title) section for the webpage: -->
+        <header>
+            <!-- Establishes the "header" section as having links to external html (nav): -->
+            <nav>
+                <!-- Creates a "logo" element in the header, including my name: -->
+                <div id="logo">
+                    <h1>Michael Denness</h1>
+                </div>
+                <!-- Creates a "links" element in the header. Includes links to external html: -->
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="#">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </nav>
+        </header>
+        <!-- The "main" section of the webpage. The true "body" of the page you are viewing: -->
+        <main>
+            <!-- Creates a "header" for the "about" page. Includes some flavor-text: -->
+            <h1 id="about-header">
+                When I'm not helping clients realize their web-based visions, you can find me:
+            </h1>
+            <!-- Creates an "about-section" class: -->
+            <section class="about-section">
+                <!-- Children elements of the "about-section" class: -->
+                <!-- Dedicated to explaining my various hobbies. Includes flavor-text & images: -->
+                <h2><u>Playing Music</u></h2>
+                <img class="about-img" src="/Images/music.JPG" alt="music"/>
+                <p>
+                    I love playing music. I primarily play the drums but also play guitar. In my spare time I dabble in music production, along with performing and writing!
+                </p>
+            </section>
+            <section class="about-section">
+                <h2><u>Climbing</u></h2>
+                <img class="about-img" src="/Images/climb.jpg" alt="climb"/>
+                <p>
+                    Climbing is my sport of choice. I started around one year ago, and have been absolutely loving it ever since. Nothing beats a good personal best at the gym!
+                </p>
+            </section>
+            <section class="about-section">
+                <h2><u>Gaming</u></h2>
+                <img class="about-img" src="/Images/game.PNG" alt="game"/>
+                <p>
+                    An avid gamer since childhood, you can usually find me online playing something. Lately my game of choice has been "Sea of Thieves". Catch me on the open waters matey!
+                </p>
+            </section>
+        </main>
+        <!-- Sets a "footer" (end) section for the webpage, includes links to various social media: -->
+        <footer>
+            <a href="https://facebook.com" target="_blank">
+                <img class="media-link" src="/Images/facebooklogo.png" alt="Facebook"/>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img class="media-link" src="/Images/twitterlogo.png" alt="Twitter"/>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img class="media-link" src="/Images/linkedinlogo.png" alt="Linkedin"/>
+            </a>
+        </footer>
+    </body>
+</html>
