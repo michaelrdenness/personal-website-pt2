@@ -181,3 +181,31 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+/* Formats the "form" element for "contact.html": */
+  form {
+    font-size: 25px;
+    max-width: 660px;
+    margin: auto;
+  }
+
+/* Sets the "input-font dimensions" for the "form" element: */
+  input {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+  }
+
+/* Sets the "textarea" for the "form" element: */
+  textarea {
+    width: 100%;
+    font-size: 15px;
+  }
+
+/* Formats the "submit" element for "contact.html": */
+  #submit {
+    font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px -2px black;
+  }
